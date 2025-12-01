@@ -6,65 +6,81 @@
   <style>
     body {
       font-family: "Segoe UI", sans-serif;
-      background: #f5f7fa;
-      color: #333;
+      background: #0d1117;
+      color: #e6edf3;
       margin: 0;
       padding: 0;
     }
     header {
-      background: linear-gradient(135deg, #0078d7, #00a2ff);
-      color: white;
+      background: linear-gradient(135deg, #1f6feb, #58a6ff);
       padding: 2rem;
       text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
     }
     h1 {
       margin: 0;
       font-size: 2.5rem;
+      color: #ffffff;
+    }
+    p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+      color: #c9d1d9;
     }
     .container {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 1rem;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem;
+      background: #161b22;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
     }
     .version {
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      color: #58a6ff;
     }
     .download {
       display: inline-block;
-      padding: 0.8rem 1.5rem;
-      background: #0078d7;
+      padding: 1rem 2rem;
+      background: #238636;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.2s;
     }
     .download:hover {
-      background: #005fa3;
+      background: #2ea043;
+      transform: scale(1.05);
     }
     footer {
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
-      color: #666;
+      color: #8b949e;
+      margin-top: 2rem;
+    }
+    code {
+      background: #0d1117;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      color: #79c0ff;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>FormDiGi Updates</h1>
-    <p>Последни версии и автоматични обновления</p>
+    <p>Автоматични обновления и последни версии</p>
   </header>
   <div class="container">
     <div class="version">Текуща версия: <strong>v1.1.0</strong></div>
-    <a class="download" href="FORMDiGi-Setup-2.4.0.exe">⬇️ Свали последната версия</a>
+    <a class="download" href="FormDiGi-Setup-1.1.0.exe">⬇️ Свали последната версия</a>
     <p>Файлът <code>latest.yml</code> е достъпен за autoUpdater.</p>
   </div>
   <footer>
-    © 2025 FORMDiGi — Всички права запазени
+    © 2025 FormDiGi — Всички права запазени
   </footer>
 </body>
 </html>
