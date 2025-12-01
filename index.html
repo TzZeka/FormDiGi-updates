@@ -2,85 +2,97 @@
 <html lang="bg">
 <head>
   <meta charset="UTF-8">
-  <title>FormDiGi Updates</title>
+  <title>FORMDiGi Installer</title>
   <style>
     body {
-      font-family: "Segoe UI", sans-serif;
-      background: #0d1117;
-      color: #e6edf3;
+      background: #0d0d0d;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Arial, sans-serif;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
     header {
-      background: linear-gradient(135deg, #1f6feb, #58a6ff);
-      padding: 2rem;
-      text-align: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #0af, #08c);
     }
-    h1 {
+    header img {
+      max-width: 150px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
       margin: 0;
-      font-size: 2.5rem;
-      color: #ffffff;
+      color: #fff;
+      letter-spacing: 2px;
     }
-    p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-      color: #c9d1d9;
+    .content {
+      padding: 40px 20px;
     }
-    .container {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background: #161b22;
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
-    }
-    .version {
-      font-size: 1.3rem;
-      margin-bottom: 1.5rem;
-      color: #58a6ff;
-    }
-    .download {
+    .download-btn {
       display: inline-block;
-      padding: 1rem 2rem;
-      background: #238636;
-      color: white;
-      text-decoration: none;
+      background: #0af;
+      color: #fff;
+      padding: 15px 30px;
       border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s, transform 0.2s;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background 0.3s;
+      margin-top: 20px;
     }
-    .download:hover {
-      background: #2ea043;
-      transform: scale(1.05);
+    .download-btn:hover {
+      background: #08c;
+    }
+    .steps {
+      margin-top: 50px;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .steps h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0af;
+    }
+    .steps ol {
+      font-size: 18px;
+      line-height: 1.6;
     }
     footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #8b949e;
-      margin-top: 2rem;
-    }
-    code {
-      background: #0d1117;
-      padding: 0.2rem 0.4rem;
-      border-radius: 4px;
-      color: #79c0ff;
+      margin-top: 50px;
+      padding: 20px;
+      background: #111;
+      color: #666;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>FormDiGi Updates</h1>
-    <p>Автоматични обновления и последни версии</p>
+    <img src="assets/logo.ico" alt="FORMDiGi icon">
+    <h1>FORMDiGi - Aвтоматизиран генератор за договори </h1>
   </header>
-  <div class="container">
-    <div class="version">Текуща версия: <strong>v1.1.0</strong></div>
-    <a class="download" href="FORMDiGi-Setup-2.4.0.exe">⬇️ Свали последната версия</a>
-    <p>Файлът <code>latest.yml</code> е достъпен за autoUpdater.</p>
+
+  <div class="content">
+    <p>От тук може да свалите последната версия на приложението.</p>
+    <a class="download-btn" href="https://github.com/TzZeka/FormDiGi-updates/releases/latest/download/FormDiGi-Setup.exe">
+      👉 Свали последната версия
+    </a>
+
+    <div class="steps">
+      <h2>Как да инсталирате</h2>
+      <ol>
+        <li>Свалете инсталатора от бутона по-горе.</li>
+        <li>Стартирайте <strong>FormDiGi-Setup.exe</strong> и следвайте инструкциите.</li>
+        <li>След инсталация, стартирайте приложението от Start Menu или Desktop shortcut.</li>
+      </ol>
+    </div>
   </div>
+
   <footer>
-    © 2025 FormDiGi — Всички права запазени
+    © 2025 FormDiGi — Всички права запазени.
   </footer>
 </body>
 </html>
