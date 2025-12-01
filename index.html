@@ -14,7 +14,9 @@
     }
     header {
       padding: 40px 20px;
-      background: linear-gradient(135deg, #0af, #08c);
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      background: linear-gradient(to right, #1a1a1a, #4b0082);
     }
     header img {
       max-width: 150px;
@@ -30,20 +32,21 @@
     .content {
       padding: 40px 20px;
     }
-    .download-btn {
-      display: inline-block;
-      background: #0af;
-      color: #fff;
-      padding: 15px 30px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 18px;
-      transition: background 0.3s;
-      margin-top: 20px;
-    }
-    .download-btn:hover {
-      background: #08c;
-    }
+   .download-btn {
+  display: inline-block;
+  background: linear-gradient(to right, #2c2c2c, #4b0082); 
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: opacity 0.3s;
+  margin-top: 20px;
+}
+.download-btn:hover {
+  opacity: 0.85; 
+}
+
     .steps {
       margin-top: 50px;
       text-align: left;
